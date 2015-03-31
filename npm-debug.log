@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express@3.4.8',
+1 verbose cli   '-g' ]
+2 info using npm@2.5.0
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'express@3.4.8', null ]
+6 verbose cache add spec express@3.4.8
+7 silly cache add parsed spec { raw: 'express@3.4.8',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'express',
+7 silly cache add   rawSpec: '3.4.8',
+7 silly cache add   spec: '3.4.8',
+7 silly cache add   type: 'version' }
+8 verbose addNamed express@3.4.8
+9 silly addNamed semver.valid 3.4.8
+10 silly addNamed semver.validRange 3.4.8
+11 silly mapToRegistry name express
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/express
+15 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/express
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 08:38:50
+19 verbose request id 00aba68e7eb1dd5f
+20 verbose etag "BFBA5FMOKQINAUV1HAUJUFX0T"
+21 http request GET https://registry.npmjs.org/express
+22 http 304 https://registry.npmjs.org/express
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 31 Mar 2015 12:38:51 GMT',
+23 silly get     server: 'Apache',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Tue, 31 Mar 2015 12:38:51 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"BFBA5FMOKQINAUV1HAUJUFX0T"',
+23 silly get     age: '9',
+23 silly get     'x-served-by': 'cache-dfw1833-DFW',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1427805531.129417,VS0,VE2',
+23 silly get     vary: 'Accept',
+23 silly get     'content-length': '0',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose etag https://registry.npmjs.org/express from cache
+25 verbose get saving express to C:\Users\michael.j.haller\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+26 silly cache afterAdd express@3.4.8
+27 verbose afterAdd C:\Users\michael.j.haller\AppData\Roaming\npm-cache\express\3.4.8\package\package.json not in flight; writing
+28 verbose afterAdd C:\Users\michael.j.haller\AppData\Roaming\npm-cache\express\3.4.8\package\package.json written
+29 silly install resolved [ { name: 'express',
+29 silly install resolved     description: 'Sinatra inspired web development framework',
+29 silly install resolved     version: '3.4.8',
+29 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+29 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+29 silly install resolved     dependencies:
+29 silly install resolved      { connect: '2.12.0',
+29 silly install resolved        commander: '1.3.2',
+29 silly install resolved        'range-parser': '0.0.4',
+29 silly install resolved        mkdirp: '0.3.5',
+29 silly install resolved        cookie: '0.1.0',
+29 silly install resolved        'buffer-crc32': '0.2.1',
+29 silly install resolved        fresh: '0.2.0',
+29 silly install resolved        methods: '0.1.0',
+29 silly install resolved        send: '0.1.4',
+29 silly install resolved        'cookie-signature': '1.0.1',
+29 silly install resolved        'merge-descriptors': '0.0.1',
+29 silly install resolved        debug: '>= 0.7.3 < 1' },
+29 silly install resolved     devDependencies:
+29 silly install resolved      { ejs: '~0.8.4',
+29 silly install resolved        mocha: '~1.15.1',
+29 silly install resolved        jade: '~0.30.0',
+29 silly install resolved        hjs: '~0.0.6',
+29 silly install resolved        stylus: '~0.40.0',
+29 silly install resolved        should: '~2.1.1',
+29 silly install resolved        'connect-redis': '~1.4.5',
+29 silly install resolved        marked: '0.2.10',
+29 silly install resolved        supertest: '~0.8.1' },
+29 silly install resolved     keywords:
+29 silly install resolved      [ 'express',
+29 silly install resolved        'framework',
+29 silly install resolved        'sinatra',
+29 silly install resolved        'web',
+29 silly install resolved        'rest',
+29 silly install resolved        'restful',
+29 silly install resolved        'router',
+29 silly install resolved        'app',
+29 silly install resolved        'api' ],
+29 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+29 silly install resolved     main: 'index',
+29 silly install resolved     bin: { express: './bin/express' },
+29 silly install resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+29 silly install resolved     engines: { node: '>= 0.8.0' },
+29 silly install resolved     license: 'MIT',
+29 silly install resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+29 silly install resolved     homepage: 'https://github.com/visionmedia/express',
+29 silly install resolved     _id: 'express@3.4.8',
+29 silly install resolved     dist:
+29 silly install resolved      { shasum: 'aa7a8986de07053337f4bc5ed9a6453d9cc8e2e1',
+29 silly install resolved        tarball: 'http://registry.npmjs.org/express/-/express-3.4.8.tgz' },
+29 silly install resolved     _from: 'express@3.4.8',
+29 silly install resolved     _npmVersion: '1.3.21',
+29 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+29 silly install resolved     maintainers: [ [Object] ],
+29 silly install resolved     directories: {},
+29 silly install resolved     _shasum: 'aa7a8986de07053337f4bc5ed9a6453d9cc8e2e1',
+29 silly install resolved     _resolved: 'https://registry.npmjs.org/express/-/express-3.4.8.tgz',
+29 silly install resolved     readme: 'ERROR: No README data found!' } ]
+30 info install express@3.4.8 into C:\Program Files\nodejs
+31 info installOne express@3.4.8
+32 verbose installOne of express to C:\Program Files\nodejs not in flight; installing
+33 verbose lock using C:\Users\michael.j.haller\AppData\Roaming\npm-cache\_locks\express-9c8001465eb10943.lock for C:\Program Files\nodejs\node_modules\express
+34 silly install write writing express 3.4.8 to C:\Program Files\nodejs\node_modules\express
+35 silly cache addNamed cb express@3.4.8
+36 verbose unbuild node_modules\express
+37 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\express
+38 verbose tar unpack C:\Users\michael.j.haller\AppData\Roaming\npm-cache\express\3.4.8\package.tgz
+39 verbose tar unpacking to C:\Program Files\nodejs\node_modules\express
+40 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\express
+41 silly gunzTarPerm modes [ '777', '666' ]
+42 error tar.unpack untar error C:\Users\michael.j.haller\AppData\Roaming\npm-cache\express\3.4.8\package.tgz
+43 verbose unlock done using C:\Users\michael.j.haller\AppData\Roaming\npm-cache\_locks\express-9c8001465eb10943.lock for C:\Program Files\nodejs\node_modules\express
+44 verbose fstream_path C:\Program Files\nodejs\node_modules\express
+45 verbose fstream_type Directory
+46 verbose fstream_class DirWriter
+47 verbose stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\express'
+48 verbose fstream_stack C:\Program Files\nodejs\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+48 verbose fstream_stack C:\Program Files\nodejs\node_modules\npm\node_modules\mkdirp\index.js:46:53
+48 verbose fstream_stack Object.oncomplete (fs.js:108:15)
+49 verbose cwd C:\Users\michael.j.haller\Documents\GitHub\TaskBoardMEAN
+50 error Windows_NT 6.1.7601
+51 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express@3.4.8" "-g"
+52 error node v0.10.36
+53 error npm  v2.5.0
+54 error path C:\Program Files\nodejs\node_modules\express
+55 error code EPERM
+56 error errno 50
+57 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\express'
+57 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\express']
+57 error   errno: 50,
+57 error   code: 'EPERM',
+57 error   path: 'C:\\Program Files\\nodejs\\node_modules\\express',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\express',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+57 error      'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 verbose exit [ 50, true ]
+60 verbose unbuild node_modules\express
+61 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\express
