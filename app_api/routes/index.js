@@ -5,6 +5,6 @@
 
 module.exports = function(app) {
 	require('./board')(app);
-	require('./item')(app);
-	require('./user')(app);
-}
+	//require('./item')(app);
+	//require('./user')(app);
+};

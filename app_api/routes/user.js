@@ -35,4 +35,4 @@ module.exports = function(app) {
 	// Delete a user
 	app.delete('/api/user/:userId', ctrl.deleteUser);	
 
-}
+};

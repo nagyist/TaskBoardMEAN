@@ -1,0 +1,11 @@
+# .nodemonignore
+
+# package control
+./node_modules/*
+
+# build artifacts
+./bin/*
+
+# ignore client-side js
+
+# ignore tests

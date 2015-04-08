@@ -1,4 +1,4 @@
--- db.js
+// db.js
 var mongoose = require( 'mongoose' );
 
 var dbURI = 'mongodb://localhost/TaskBoard';

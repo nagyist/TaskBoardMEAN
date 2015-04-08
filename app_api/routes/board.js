@@ -28,4 +28,4 @@ module.exports = function(app) {
 	// Toggle the expand/collapse state of a lane for the current user.
 	app.post('/api/lanes/:laneId/toggle', ctrl.laneToggle);
 
-}
+};

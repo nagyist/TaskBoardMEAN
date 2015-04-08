@@ -9,7 +9,7 @@ module.exports = function(app) {
 	app.put('/api/item/:itemId', ctrl.itemUpdate);
 
 	// Delete an item
-	app.delete('/api/item/:itemId', ctrl.itemDelete)
+	app.delete('/api/item/:itemId', ctrl.itemDelete);
 
 	// Update item posistions
 	app.put('/api/item/position', ctrl.itemUpdatePos);
@@ -32,4 +32,4 @@ module.exports = function(app) {
 	// Remove an attachment from an item
 	app.delete('/api/item/:itemId/attachement/:attachementId', ctrl.deleteAttachment);
 
-}
+};
